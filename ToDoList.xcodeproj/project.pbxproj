@@ -16,6 +16,14 @@
 		6D5B4AC11889BCC900624A47 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D5B4AC01889BCC900624A47 /* Default.png */; };
 		6D5B4AC31889BCC900624A47 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D5B4AC21889BCC900624A47 /* Default@2x.png */; };
 		6D5B4AC51889BCC900624A47 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D5B4AC41889BCC900624A47 /* Default-568h@2x.png */; };
+		6D5B4ACC1889C31000624A47 /* Pizza.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D5B4ACB1889C31000624A47 /* Pizza.storyboard */; };
+		6D6D445E188AD235004A8816 /* lolPizzaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D445D188AD235004A8816 /* lolPizzaViewController.m */; };
+		6D6D4460188AFDD0004A8816 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D6D445F188AFDD0004A8816 /* Main.storyboard */; };
+		6D6D4462188B1224004A8816 /* smile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6D4461188B1224004A8816 /* smile.jpg */; };
+		6D6D4468188B2CCE004A8816 /* lolAddTodoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D4467188B2CCE004A8816 /* lolAddTodoItemViewController.m */; };
+		6D6D446B188B2CFF004A8816 /* lolToDoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D446A188B2CFF004A8816 /* lolToDoListViewController.m */; };
+		6DA368F8188BF03800301504 /* lolToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA368F7188BF03800301504 /* lolToDoItem.m */; };
+		6DA368FA188C37DE00301504 /* orange-rectangle-button-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DA368F9188C37DE00301504 /* orange-rectangle-button-hi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +40,18 @@
 		6D5B4AC01889BCC900624A47 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		6D5B4AC21889BCC900624A47 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		6D5B4AC41889BCC900624A47 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6D5B4ACB1889C31000624A47 /* Pizza.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Pizza.storyboard; sourceTree = "<group>"; };
+		6D6D445C188AD235004A8816 /* lolPizzaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lolPizzaViewController.h; sourceTree = "<group>"; };
+		6D6D445D188AD235004A8816 /* lolPizzaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lolPizzaViewController.m; sourceTree = "<group>"; };
+		6D6D445F188AFDD0004A8816 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6D6D4461188B1224004A8816 /* smile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = smile.jpg; path = ../../../Pictures/smile.jpg; sourceTree = "<group>"; };
+		6D6D4466188B2CCE004A8816 /* lolAddTodoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lolAddTodoItemViewController.h; sourceTree = "<group>"; };
+		6D6D4467188B2CCE004A8816 /* lolAddTodoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lolAddTodoItemViewController.m; sourceTree = "<group>"; };
+		6D6D4469188B2CFF004A8816 /* lolToDoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lolToDoListViewController.h; sourceTree = "<group>"; };
+		6D6D446A188B2CFF004A8816 /* lolToDoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lolToDoListViewController.m; sourceTree = "<group>"; };
+		6DA368F6188BF03800301504 /* lolToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lolToDoItem.h; sourceTree = "<group>"; };
+		6DA368F7188BF03800301504 /* lolToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lolToDoItem.m; sourceTree = "<group>"; };
+		6DA368F9188C37DE00301504 /* orange-rectangle-button-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orange-rectangle-button-hi.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +98,20 @@
 		6D5B4AB41889BCC900624A47 /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				6DA368F9188C37DE00301504 /* orange-rectangle-button-hi.png */,
 				6D5B4ABD1889BCC900624A47 /* lolAppDelegate.h */,
 				6D5B4ABE1889BCC900624A47 /* lolAppDelegate.m */,
+				6D5B4ACB1889C31000624A47 /* Pizza.storyboard */,
+				6D6D4461188B1224004A8816 /* smile.jpg */,
+				6D6D445F188AFDD0004A8816 /* Main.storyboard */,
+				6D6D4466188B2CCE004A8816 /* lolAddTodoItemViewController.h */,
+				6D6D4467188B2CCE004A8816 /* lolAddTodoItemViewController.m */,
+				6D6D4469188B2CFF004A8816 /* lolToDoListViewController.h */,
+				6D6D446A188B2CFF004A8816 /* lolToDoListViewController.m */,
+				6DA368F6188BF03800301504 /* lolToDoItem.h */,
+				6DA368F7188BF03800301504 /* lolToDoItem.m */,
+				6D6D445C188AD235004A8816 /* lolPizzaViewController.h */,
+				6D6D445D188AD235004A8816 /* lolPizzaViewController.m */,
 				6D5B4AB51889BCC900624A47 /* Supporting Files */,
 			);
 			path = ToDoList;
@@ -155,6 +187,10 @@
 				6D5B4AC11889BCC900624A47 /* Default.png in Resources */,
 				6D5B4AC31889BCC900624A47 /* Default@2x.png in Resources */,
 				6D5B4AC51889BCC900624A47 /* Default-568h@2x.png in Resources */,
+				6D5B4ACC1889C31000624A47 /* Pizza.storyboard in Resources */,
+				6D6D4460188AFDD0004A8816 /* Main.storyboard in Resources */,
+				6D6D4462188B1224004A8816 /* smile.jpg in Resources */,
+				6DA368FA188C37DE00301504 /* orange-rectangle-button-hi.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +203,10 @@
 			files = (
 				6D5B4ABB1889BCC900624A47 /* main.m in Sources */,
 				6D5B4ABF1889BCC900624A47 /* lolAppDelegate.m in Sources */,
+				6D6D445E188AD235004A8816 /* lolPizzaViewController.m in Sources */,
+				6D6D4468188B2CCE004A8816 /* lolAddTodoItemViewController.m in Sources */,
+				6D6D446B188B2CFF004A8816 /* lolToDoListViewController.m in Sources */,
+				6DA368F8188BF03800301504 /* lolToDoItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +321,7 @@
 				6D5B4ACA1889BCC900624A47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
